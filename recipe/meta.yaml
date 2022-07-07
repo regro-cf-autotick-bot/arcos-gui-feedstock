@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/arcos_gui-{{ version }}.tar.gz
-  sha256: 2e861d5f0d76a7a8c3d5edaed0ed21a309ed89f001cfa1178a455da378532748
+  sha256: a0ec583bf32ef70163bb21a9e98d40bc3ea8bc84569c05c653fae463ba88d278
 
 build:
   noarch: python
