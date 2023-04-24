@@ -1,5 +1,5 @@
 {% set name = "arcos-gui" %}
-{% set version = "0.0.6" %}
+{% set version = "0.0.7" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/arcos_gui-{{ version }}.tar.gz
-  sha256: a0ec583bf32ef70163bb21a9e98d40bc3ea8bc84569c05c653fae463ba88d278
+  sha256: cf7824cb4434a07e17e045f595c772194d533d6dde44fa2b2ef9c27b2b0366d1
 
 build:
   noarch: python
@@ -21,7 +21,7 @@ requirements:
     - pip
     - python >=3.8
   run:
-    - arcos4py >=0.1.4
+    - arcos4py >=0.1.6
     - magicgui >=0.3.0
     - matplotlib-base >=3.3.4
     - napari >=0.4.14
@@ -30,11 +30,12 @@ requirements:
     - python >=3.8
     - scikit-image >=0.18.1
     - scipy >=1.7.3
+    - pyarrow >=11.0.0
 
 test:
   imports:
     - arcos_gui
-    - arcos_gui._arcos_widgets
+    - arcos_gui.widgets
   commands:
     - pip list
     - pip check
