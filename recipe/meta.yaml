@@ -1,5 +1,5 @@
 {% set name = "arcos-gui" %}
-{% set version = "0.0.7" %}
+{% set version = "0.1.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/arcos_gui-{{ version }}.tar.gz
-  sha256: cf7824cb4434a07e17e045f595c772194d533d6dde44fa2b2ef9c27b2b0366d1
+  sha256: 4c6e5664621aeb630961a6599763b98c72c31e72577eedcb22dd5699270d9197
 
 build:
   noarch: python
