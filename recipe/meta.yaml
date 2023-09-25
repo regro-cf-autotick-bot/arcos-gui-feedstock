@@ -20,6 +20,7 @@ requirements:
   host:
     - pip
     - python >=3.8
+    - setuptools-scm
   run:
     - arcos4py >=0.2.2
     - matplotlib-base >=3.3.4
@@ -30,6 +31,7 @@ requirements:
     - scikit-image >=0.18.1
     - scipy >=1.7.3
     - pyarrow >=11.0.0
+    - qtpy
 
 test:
   imports:
@@ -40,6 +42,7 @@ test:
     - pip check
   requires:
     - pip
+    - pyqt
 
 about:
   home: https://github.com/bgraedel/arcos-gui
