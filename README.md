@@ -1,11 +1,11 @@
-About arcos-gui
-===============
+About arcos-gui-feedstock
+=========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/arcos-gui-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/bgraedel/arcos-gui
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/arcos-gui-feedstock/blob/main/LICENSE.txt)
 
 Summary: A napari plugin to detect and visualize collective signaling events
 
