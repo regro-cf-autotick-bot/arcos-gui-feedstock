@@ -22,7 +22,7 @@ requirements:
     - python >=3.8
     - setuptools-scm
   run:
-    - arcos4py >=0.2.2
+    - arcos4py >=0.2.3
     - matplotlib-base >=3.3.4
     - napari >=0.4.15
     - numpy >=1.21.5
