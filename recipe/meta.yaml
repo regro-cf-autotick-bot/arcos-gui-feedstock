@@ -1,5 +1,5 @@
 {% set name = "arcos-gui" %}
-{% set version = "0.1.1" %}
+{% set version = "0.1.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/arcos_gui-{{ version }}.tar.gz
-  sha256: 5705934e0a6cf466b2c60b0dae636f549a31c9f87113e813b298faac9be22e68
+  sha256: c4f007663adfbf55298a20720b5111b11301c382b37856469d71b72ae77b3d4f
 
 build:
   noarch: python
@@ -22,7 +22,7 @@ requirements:
     - python >=3.8
     - setuptools-scm
   run:
-    - arcos4py >=0.2.2
+    - arcos4py >=0.2.3
     - matplotlib-base >=3.3.4
     - napari >=0.4.15
     - numpy >=1.21.5
